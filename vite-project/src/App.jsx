@@ -14,7 +14,20 @@ function App() {
   return (
     <div>
       <CreateTodo/>
-      <Todos/>
+      <Todos todos={[
+        {
+          title:"adsd",
+          description:"djndkfd",
+          completed:false
+        },
+        {
+          title:"adsd",
+          description:"djndkfd",
+          completed:false
+        },
+      ]}
+         
+      ></Todos>
     </div>
   )
 }
